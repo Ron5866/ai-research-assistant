@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (never push this)
+.env
+
+# Uploaded PDFs
+data/
+
+# FAISS vector indexes
+vectorstores/
+
+# Database files
+research.db
+*.db
+*.sqlite
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
