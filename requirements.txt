@@ -15,7 +15,7 @@ langchain-core==1.2.22
 langchain-groq==1.1.2
 langchain-text-splitters==0.3.8
 groq==0.23.0
-faiss-cpu==1.10.0
+faiss-cpu==1.13.2
 pypdf==5.4.0
 sentence-transformers==4.1.0
 huggingface-hub==0.30.1
