@@ -62,3 +62,7 @@ def login(body: schemas.LoginRequest, db: Session = Depends(get_db)):
 @app.get("/")
 def root():
     return {"status": "AI Research Assistant API is running"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
